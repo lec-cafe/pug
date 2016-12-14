@@ -1,0 +1,22 @@
+// コメントアウト１（HTMLにコンパイルされる）
+//- コメントアウト２（HTMLにコンパイルされない）
+
+doctype html
+//- 宣言文　<!DOCTYPE html>
+
+html(lang="ja")
+  //- <>は省略。閉じタグも不要です。属性などは()で続けて書きます。 <html lang="ja">
+
+  head
+    //- インデントでネスト(入れ子)できます。
+    meta(charset="utf-8")
+    style(src="css/style.css")
+    title Pugテスト
+    //- タグの後ろにスペースを入れるとタグ内のテキストになります。<title>Pugテスト</title>
+
+  body
+    h1#title Pugテスト！
+    //- idはタグの後ろに「#id名」で付与できます
+
+    h2.page_title Pugの練習してみよう！
+    //- classはタグの後ろに「.class名」で付与できます
