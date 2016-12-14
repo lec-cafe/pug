@@ -2,10 +2,10 @@
 
 ## はじめに
 
-1\.このリポジトリをDLして、pug-lessonのフォルダの中に移動します
+1\.このリポジトリをダウンロードして、pug-lessonのフォルダの中に移動します
 
 ```
-$ clone https://github.com/lec-cafe/pug-lesson
+$ git clone https://github.com/lec-cafe/pug-lesson
 $ cd ./pug-lesson
 ```
 
@@ -17,10 +17,11 @@ $ npm install
 ```
 
 ※ gulpを初めて使う方は以下のコマンドも入力してください
-(パスワードを聞かれたら、自分のパソコンのパスワードを入力してください)
+(エラー出たら頭に「sudo」をつけて、もう一度コマンドを実行してください。
+その時にパスワードを聞かれるので、自分のパソコンのパスワードを入力してください)
 
 ```
-$ sudo npm install gulp -g
+$ npm install gulp -g
 ```
 
 

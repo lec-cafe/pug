@@ -7,7 +7,10 @@ html(lang="ja")
   head
     //- インデントでネスト(入れ子)できます。
     meta(charset="utf-8")
-    style(src="css/style.css")
+
+    link(href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css", rel="stylesheet",)
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js')
+
     title Pugテスト
     //- タグの後ろにスペースを入れるとタグ内のテキストになります。<title>Pugテスト</title>
 
@@ -21,3 +24,5 @@ html(lang="ja")
 
       // コメントアウト１（HTMLにコンパイルされる）
       //- コメントアウト２（HTMLにコンパイルされない）
+
+    button.btn.btn-primary(type='button') ボタンサンプル
